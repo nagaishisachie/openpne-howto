@@ -1,0 +1,362 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Lato:100,300,400);
+html {
+  height: 100%;
+}
+body {
+	color:#333333;
+}
+* {
+}
+a {
+  cursor: pointer!important;
+  color: #0081be;
+}
+.navbar .brand {
+/*  margin-top: 20px;*/
+  padding-bottom: 8px;
+  max-height: 40px;
+  width: auto;
+}
+/* line 49, ../sass/typica-login.scss */
+.navbar .navbar-inner {
+  height: 80px;
+  background: white;
+  filter: none;
+}
+/* line 54, ../sass/typica-login.scss */
+.navbar .nav {
+  margin-top: 20px;
+}
+/* line 56, ../sass/typica-login.scss */
+.navbar .nav > li > a {
+  padding: 10px 10px 11px;
+  color: #333;
+  text-shadow: none;
+}
+/* line 63, ../sass/typica-login.scss */
+.navbar .nav > li > a:hover {
+  color: #111;
+}
+/* line 67, ../sass/typica-login.scss */
+.navbar .nav > li.active > a {
+  background: none;
+  color: #111;
+}
+/* line 70, ../sass/typica-login.scss */
+.navbar .nav > li.active > a:hover {
+  background: none;
+  color: #111;
+}
+.navbar .nav img {
+	width:70px;
+}
+
+
+body {
+	background-color:#f5f5f5;
+}
+.main > .span1,
+.main > .span2,
+.main > .span3,
+.main > .span4,
+.main > .span5,
+.main > .span6,
+.main > .span7,
+.main > .span8,
+.main > .span9,
+.main > .span10,
+.main > .span11,
+.main > .span12 {
+	background-color:#ffffff;
+	border:1px solid #c2c3c3;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.main > .span1 {width:58px;}
+.main > .span2 {width:138px;}
+.main > .span3 {width:218px;}
+.main > .span4 {width:298px;}
+.main > .span5 {width:378px;}
+.main > .span6 {width:458px;}
+.main > .span7 {width:538px;}
+.main > .span8 {width:618px;}
+.main > .span9 {width:698px;}
+.main > .span10 {width:778px;}
+.main > .span11 {width:858px;}
+.main > .span12 {width:938px;}
+
+h1 {
+	font-size:20px;
+	line-height:20px;
+	margin-left:10px;
+}
+h2 {
+	font-size:18px;
+	line-height:20px;
+	border-left:20px solid #ec0000;
+	margin-left:10px;
+	text-indent: 15px;
+}
+h3 {
+	font-size: 20px;
+	line-height:20px;
+	margin-left:10px;
+	margin-bottom:5px;
+}
+hr {
+	margin:0 0 10px 0;
+}
+.span3 h3,
+.span6 h3 {
+	font-size:17px;
+	line-height:18px;
+}
+ul {
+	margin: 0 10px 0 10px;
+}
+.intro p {
+    margin-left:10px;
+	margin-right:10px;
+}
+.title p {
+    margin-left:10px;
+}
+
+.main > .title {
+	margin-top:25px;
+}
+.main > p {
+	float: right;
+}
+.main > .uplan {
+	min-height:250px;
+}
+.uplan {
+	background-repeat:no-repeat;
+	background-position:25px 55px;
+}
+.oplan {
+	background-repeat:no-repeat;
+	background-position:center 35px;
+}
+.uplan#medium {
+	background-image: url("../img/charge/0_medium.png");
+}
+.uplan#large {
+	background-image: url("../img/charge/0_large.png");
+}
+.uplan#x-large {
+	background-image: url("../img/charge/0_x-large.png");
+}
+.oplan#no-ad {
+	background-image: url("../img/charge/0_no-ad.png");	
+}
+.oplan#domain {
+	background-image: url("../img/charge/0_domain.png");	
+}
+.oplan#contact {
+	background-image: url("../img/charge/0_contact.png");	
+}
+
+.span4 ul li {
+}
+.span4 ul li:first-child {
+	font-size: 35px;
+	line-height: 40px;
+	text-align:right;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+.span4 ul li:nth-child(2) {
+	text-align:left;
+}
+.span4 ul li p,
+.span3 ul li p,
+.span6 ul li p {
+	margin-top:5px;
+	font-size:14px;
+}
+.span4.uplan li:nth-child(3),
+.span3.oplan li:nth-child(2),
+.span6.oplan li:nth-child(2) {
+	float:right;
+	line-height: 30px;
+	margin-top:4px;
+}
+.span4.uplan li:last-child,
+.span3.oplan li:last-child,
+.span6.oplan li:last-child {
+	float:right;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.oplan {
+    padding-bottom: 8px;
+}
+
+
+.appli h2 {
+	border-left-color:#1da7bf;
+}
+.appli .row {
+	margin-left:0;
+	padding-top:10px;
+}
+.appli .span3 {
+	margin-left:60px;
+}
+.appli .row p {
+	text-align:center;
+}
+.appli .uplan h4 {
+	margin-left:10px;
+}
+.appli ul {
+	text-align:right;
+	font-size:16px;
+	margin-top:-10px;
+  float: right;
+	margin-right:10px;
+}
+.appli .oplan ul {
+	margin-top:40px;
+}
+.appli .oplan h4 {
+	font-size:15px;
+	margin-top:15px;
+}
+.appli li {
+	padding-top:10px;
+}
+.appli .oplan li {
+	float:right;
+}
+
+.appli .uplan li:nth-child(3),
+.appli .uplan li:nth-child(4),
+.appli .oplan li {
+	float:right;
+}
+.appli .uplan li:nth-child(2) {
+	font-size: 23px;
+	line-height: 25px;
+}
+.appli .uplan li:nth-child(3),
+.appli .oplan li:first-child {
+	font-size: 16px;
+	line-height: 34px;
+}
+.appli .uplan li:nth-child(4),
+.appli .oplan li:last-child {
+	font-size:26px;
+	line-height:30px;
+}
+
+
+.appli .row p {
+	padding: 10px;
+	background-color: #C2C3C3;
+	width: 40%;
+	margin: 5px auto;
+	height: 15px;
+	line-height: 15px;
+	font-size: 16px;
+}
+.appli .row p:hover,
+.appli .sum:last-child p:hover,
+.appli .sum:last-child p:first-child {
+	background-color: #1da7bf;
+	color:#F5F5F5;
+	cursor:pointer;
+}
+.appli .sum:last-child p:first-child:hover {
+	background-color:#77cad9;
+}
+.appli hr:last-child {
+	margin-top:20px;
+}
+.appli .sum {
+	text-align: right;
+	margin:10px 20px 10px 0;
+	clear: both;
+}
+.appli .sum p {
+	float:right;
+	font-size: 25px;
+	line-height: 40px;
+}
+.appli span {
+	font-size:35px;
+	line-height:40px;
+	margin-left:10px;
+}
+.appli .sum:last-child p {
+	float:right;
+	font-size:20px;
+	line-height:30px;
+	background-color: #C2C3C3;
+	width: 200px;
+	border:none;
+	text-align:center;
+	margin:5px 0px 15px 30px;
+	padding:5px;
+}
+
+/* ####### */
+/* $FOOTER */
+/* ####### */
+/* line 185, ../sass/typica-login.scss */
+.white {
+  padding:10px 20px;
+  text-align: center;
+  color:#333333;
+  background:white;
+  min-height:25px;
+  margin-top:30px;
+}
+#FooterContainer {
+  float: right;
+  font-size: 16px;
+}
+
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.article-anchor {
+    color: #000000;
+}
+
+.info-date {
+    width: 97%;
+    text-align: right;
+    font-size: 50%;
+    color: #aaaaaa;
+}
+.note {
+  text-align: right;
+  clear: both;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  padding:8px 0 0 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ea5f3f;
+  background-color: #ffeaea!important;
+  border: 1px solid #f0d0d0;
+  border-color:#F0D0D0!important;
+}
+
+td.align {
+  text-align:center;
+}
+
+/*free.html*/
+.free h2 {
+  border-left-color:#00CBE7;
+}

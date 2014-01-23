@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>βテスト専用｜xpne.infoサービス</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML template for Your company">
+    <meta name="author" content="Oskar Żabik (oskar.zabik@gmail.com)">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/typica-login.css">
+    <link rel="shortcut icon" href="img/logo.jpg">
+
+  </head>
+
+  <body class="index">
+
+    <div class="navbar" style="top:0; z-index:1030;">
+      <div class="navbar-inner" style="border-radius: 0;">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html"><img src="img/logo.jpg" alt="OpenPNE" width="70px"></a>
+          <div>
+
+          </div>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+              <li><a href="index.html" class="active">home</a></li>
+              <li><a href="information.html">information</a></li>
+              <li><a href="about.html">about</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="register-info-wraper">
+              <div id="register-info">
+                <div id="mode-description">
+                  <span id="standard-mode" style="display: inline;">
+                    <h1>
+                      定番のSNS機能<br />スタンダードコミュニティ<br />
+                    </h1>
+                    <br />
+                    <p>● 日記、掲示板、タイムラインなどの一般的な機能を持ったSNSを、</p>
+                    <p>参加者を限定し、プライベートに運用することができます。</p>
+                  </span>
+                  <span id="design-mode" style="display: inline;">
+                    <h1>
+                      定番のSNS機能<br />スタンダード＋スキンテーマコミュニティ<br />
+                    </h1>
+                    <br />
+                    <p>● スタンダードコミュニティにスキンテーマプラグインを追加しました。</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="span6">
+      <div id="register-wraper">
+        <div id="register-form" class="form">
+        <legend>Register to <span class="blue">xpne.info</span></legend>
+
+        <div class="body">
+          <div class="left">
+            <span>Domain</span>
+          </div>
+          <input id="domain-form" class="input-huge" type="text"><br />
+          <div id="available">&nbsp;</div>
+          <!-- email -->
+          <label class="left">E-mail</label>
+          <input id="mail-form" class="input-huge" type="text">
+          <!-- mode -->
+          <div class="options">
+            <label class="left" id="mode-select">Mode Select</label>
+            <select id="select-mode" name="mode">
+              <option value="standard"> スタンダードコミュニティ</option><br />
+              <option value="design"> デザインスタンダードコミュニティ</option>
+            </select>
+            <br /><br />
+          </div>
+
+        </div>
+
+        <div class="footer">
+          <div id="check-wrapper">
+            <input type="checkbox" id="toucheck" title="「利用規約に同意する」" />
+            <label for="toucheck"><a target="_blank" href="./userAgreement.html">利用規約</a>に同意する</label><br />
+          </div>
+          <button class="btn btn-success" id="sendbutton2" disabled="disabled">Register</button>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    <footer class="white navbar-fixed-bottom" style="padding: 5px 5px; height: 18px;">
+      <div id="photoCredit">
+        <p>photo by : <a target="_blank" href="http://www.bahnbilder.ch">Kabelleger / David Gubler</a></p>
+      </div>
+      <div id="FooterContainer">
+        <p>
+          <a target="_blank" href="./userAgreement.html">利用規約</a>
+          Powered by <a href="http://www.openpne.jp/" target="_blank">OpenPNE</a>
+        </p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" charset="UTF-8" src="js/jquery.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/bootstrap.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/backstretch.min.js"></script>
+    <!--<script type="text/javascript" charset="UTF-8" src="js/typica-login.js"></script>-->
+    <script type="text/javascript" charset="UTF-8" src="js/pne.js"></script>
+    <!--<script type="text/javascript" charset="UTF-8" src="js/ribbon.js"></script>-->
+    <script type="text/javascript" charset="UTF-8" src="js/tooltip.js"></script>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1661497-22']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
